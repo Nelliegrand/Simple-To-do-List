@@ -1,21 +1,21 @@
 .homecontainer {
-    position: relative; /* Gör att den inre bilden kan använda fill */
-    height: 100vh; /* Höjd på hela viewporten */
-    display: flex; /* Flexbox för att centrera innehåll */
-    flex-direction: column; /* Ställ in riktning till kolumn */
+    position: relative; 
+    height: 100vh;
+    display: flex; 
+    flex-direction: column; 
     
-    align-items: center; /* Centrera horisontellt */
-    overflow: hidden; /* Döljer eventuellt överflöd */              /* Ta bort eventuella standardpadding */
+    align-items: center; 
+    overflow: hidden;             
     }
 
     .image {
-        object-fit: cover; /* Gör att bilden täcker hela containern */
-        position: absolute; /* Placera bilden över containern */
+        object-fit: cover; 
+        position: absolute; 
         top: 0; 
         left: 0; 
-        width: 100%; /* Tar upp hela bredden */
-        height: 100%; /* Tar upp hela höjden */
-        z-index: -1; /* Gör så att bilden ligger bakom texten */
+        width: 100%; 
+        height: 100%; 
+        z-index: -1; 
       }
   
   
